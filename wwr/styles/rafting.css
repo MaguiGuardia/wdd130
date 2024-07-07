@@ -15,6 +15,81 @@
   --nav-hover-background-color: #219EBC;
 }
 
+header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  justify-items: space-around;
+  padding-inline: 5rem;
+  background-color: var(--nav-hover-link-color);
+}
+
+header img{
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+nav {
+  background-color: var(--nav-background-color);
+  font-size: 1.2rem;
+  font-family: var(--heading-font);
+  color: var(--nav-link-color);
+  display: flex;
+  justify-content: space-between;
+}
+
+
+nav a {
+  border: 2px solid var(--nav-hover-background-color); 
+  padding: 1rem;
+}
+
+.history {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.history p{
+  text-align: center;
+}
+
+.adventure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+figure img {
+  width: 10rem;
+
+}
+.sociallinks{
+  display: flex;
+  justify-content: end;
+  padding: 2rem;
+}
+
+footer {
+  background-color: var(--nav-background-color);
+  display: flex;
+  justify-content: space-between;
+}
+
+a img{
+  width: 3rem;
+}
+
+.sociallinks a {
+  border: none;
+}
+
+.adv-img {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: var(--nav-hover-background-color);
+  width: 100%;
+}
 
 p {
   padding: 25px;
