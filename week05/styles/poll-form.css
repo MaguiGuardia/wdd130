@@ -6,7 +6,7 @@
     box-sizing: border-box;
   }
 
-body {
+  body {
     font-family: Merriweather, Georgia, serif;
     font-size: 1.2em;
     color: #333;
@@ -17,7 +17,8 @@ body {
     margin: 0 auto;
     width: 650px;
   }
- h1 {
+  
+  h1 {
     margin: 1rem;
     font-size: 1.5em;
     color: navy;
@@ -32,7 +33,6 @@ body {
     border-radius: 0.5rem;
     background-color: #eee;
     display: grid;
-    gap: 2rem;
   }
 
   fieldset {
@@ -41,7 +41,12 @@ body {
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
-    gap: 2rem;
+  }
+
+  legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3em;
   }
 
   label, input, button, select, textarea {
@@ -50,21 +55,20 @@ body {
 
 
   label {
-    display: flex;
-    flex-direction: column;
+    text-align: right;
+    padding-right: 1rem;
   }
-
-p{
-    font-family: "rubik mono one";
-    display: flex;
-    justify-content: center;
-}
 
   input, select, textarea {
     padding: 0.5rem;
     font-size: 1.1rem;
   }
 
+  input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+  }
 
   button {
     margin: 1rem;
@@ -89,3 +93,21 @@ p{
     border-top: 1px solid #ccc;
   }
 
+  .form-item {
+    display: grid;
+    align-items: center;
+  }
+
+  .column1 {
+    grid-template-columns: 2fr 1fr;
+    margin: 1rem;
+  }
+
+  .column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 1rem;
+  }
+
+  .list {
+    text-align: center;
+  }
