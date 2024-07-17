@@ -19,7 +19,7 @@ header {
   display: grid;
   grid-template-columns: 1fr auto;
   align-items: center;
-  justify-items: space-around;
+  
   padding-inline: 5rem;
   background-color: var(--nav-hover-link-color);
 }
@@ -96,7 +96,11 @@ p {
   color: var(--secondary-color);
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1 {
+    text-align: center;
+}
+
+h1,h2 {
   font-family: var(--heading-font);
   color: var(--primary-color);
 }
@@ -129,7 +133,11 @@ a {
     background-color: var(--accent2-color);
     width: 45%;
 }
-
+.information h2{
+    display: flex;
+    justify-content: center;
+    color: var(--accent1-color);
+}
 .form{
     background-color: var(--accent1-color);
     width: 45%;
@@ -192,8 +200,15 @@ fieldset {
     background-color: var(--nav-hover-link-color);
   }
 
+  .message{
+    display: flex;
+    justify-content: start;
+}
 
-
+.wireframe{
+    display: flex;
+    justify-content: center;
+}
 
 
 
