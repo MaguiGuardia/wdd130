@@ -54,7 +54,7 @@ body {
     flex-direction: column;
   }
 
-p{
+span {
     font-family: "rubik mono one";
     display: flex;
     justify-content: center;
