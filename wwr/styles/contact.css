@@ -120,7 +120,6 @@ a {
 
 .map {
     border: 0;
-    width: 45%;
 }
 
 .center{
@@ -160,7 +159,7 @@ fieldset {
     padding: 1rem;
   }
 
-  legend {
+  .radio p {
     padding: 0.5rem;
     color: navy;
     font-size: 1.3em;
@@ -205,10 +204,6 @@ fieldset {
     justify-content: start;
 }
 
-.wireframe{
-    display: flex;
-    justify-content: center;
-}
 
 
 
