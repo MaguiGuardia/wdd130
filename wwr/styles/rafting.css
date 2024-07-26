@@ -19,7 +19,7 @@ header {
   display: grid;
   grid-template-columns: 1fr auto;
   align-items: center;
-  justify-items: space-around;
+  justify-content: space-around;
   padding-inline: 5rem;
   background-color: var(--nav-hover-link-color);
 }
