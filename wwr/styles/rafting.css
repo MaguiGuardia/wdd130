@@ -190,11 +190,12 @@ a {
 }
 .home-hero-img{
 width: 100%;
+height: 80vh;
 }
 
 .home-hero figcaption{
   font-size: 4rem;
-  transform: translateY(-50rem);
+  transform: translateY(-35rem);
   color: var(--nav-background-color);
   }
 
@@ -282,12 +283,31 @@ fieldset {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 1rem;
   }
 
   .offerts figure img{
    width: 40rem;
   }
 
+  .offerts a{
+    border: solid 2px var(--nav-link-color);
+    background-color: var(--primary-color);
+    font-size: 2rem;
+    color: var(--nav-link-color);
+    font-family: var(--heading-font);
+    border-radius: 4rem;
+    padding-inline: 1rem;
+  }
+
+
+  .offerts a:hover{
+    font-size: 2rem;
+    color: var(--primary-color);
+    border: solid 2px var(--primary-color);
+    background-color: var(--secondary-color);
+    font-family: var(--heading-font);
+  }
 
 
   .grid-sctn{
